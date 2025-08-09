@@ -32,14 +32,13 @@ The objective of this project is to perform **Exploratory Data Analysis (EDA)** 
 
 ### 3️⃣ **Load**
 - 💾 Load cleaned and transformed data into an analytical database/data warehouse.  
-- ✅ Establish a **single source of truth** for reporting and BI.  
+
 
 ---
 
 ## 📂 Dataset Information
 - **Files Used**: `dim_date`, `dim_hotels`, `dim_rooms`, `fact_aggregated_bookings`, `fact_bookings`, `new_data_august`
 - **Time Period Covered**: May–August
-- **Key Metrics**: Occupancy %, ADR, RevPAR, Revenue Generated, Revenue Realized
 
 ---
 
@@ -53,7 +52,7 @@ The objective of this project is to perform **Exploratory Data Analysis (EDA)** 
 
 ### 📌 Feature Engineering
 - Created **OCC%** = `successful_booking / capacity`.  
-- Calculated **ADR** (Average Daily Rate) and **RevPAR** (Revenue per Available Room).  
+
 
 ### 📌 Analysis Performed
 - **Occupancy % trends** by month, city, and room category.  
@@ -73,8 +72,7 @@ The objective of this project is to perform **Exploratory Data Analysis (EDA)** 
 
 ## 💡 Recommendations
 - 🎯 Target marketing in low-performing cities.  
-- 💻 Promote direct bookings with loyalty programs & exclusive discounts.  
-- 📈 Apply **dynamic pricing** to match seasonal demand.  
+- 💻 Promote direct bookings with loyalty programs & exclusive discounts.    
 - ⚙️ Monitor KPIs with automated Power BI dashboards for quick action.  
 
 ---
@@ -82,31 +80,5 @@ The objective of this project is to perform **Exploratory Data Analysis (EDA)** 
 ## 🛠️ Tools & Technologies
 - 🐍 Python (`pandas`, `numpy`, `matplotlib`, `seaborn`)  
 - 📊 Power BI / Tableau for dashboarding  
-- 🗄️ SQL for data extraction & transformation  
 - 📝 GitHub for version control and documentation  
 
----
-
-## 📜 Author
-**Venkatesh Tohgaonkar**  
-📧 [Your Email]  
-🔗 [LinkedIn Profile]  
-
----
-I can also add:
-
-Screenshots of your Power BI dashboards 📸
-
-Sample plots from your EDA 📊
-
-A project workflow diagram 🔄
-
-That way your GitHub will look like a polished portfolio case study instead of just a code dump.
-
-Do you want me to add visuals and diagram sections too so it’s presentation-ready? That would make it stand out for recruiters.
-
-
-
-
-No file chosenNo file chosen
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
