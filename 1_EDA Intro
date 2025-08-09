@@ -1,0 +1,23 @@
+### 🔧 **ETL – Extract, Transform, Load**
+
+1. **Extract**
+
+   * Pull data from the original booking database (including third-party inputs).
+   * Store it in a staging environment.
+
+2. **Transform**
+
+   * Handle missing values (e.g., imputation or removal).
+   * Convert incorrect data types (e.g., date fields, numeric formats).
+   * Normalize data (e.g., city names, hotel types).
+   * Aggregate and restructure tables for analysis readiness.
+   * Apply business logic (e.g., categorize bookings, calculate revenue).
+
+3. **Load**
+
+   * Load the cleaned and transformed data into a new analytical database or data warehouse.
+   * This serves as the **single source of truth** for business intelligence and reporting.
+
+---
+
+By performing ETL, we ensure the data is **accurate, consistent, and analysis-ready**, allowing us to generate meaningful insights that support Atlique Hotels in identifying the causes of revenue decline and forming a data-driven recovery strategy.
